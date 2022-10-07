@@ -1,0 +1,29 @@
+.x{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+.x-item{
+    margin: 10px;
+
+}
+
+/* unvisited link */
+.x-item:link {
+    color: black;
+}
+  
+/* visited link */
+.x-item:visited {
+  color: green;
+}
+  
+/* mouse over link */
+.x-item:hover {
+    color: hotpink;
+}
+/* selected link */
+.x-item:active {
+    color: blue;
+}
